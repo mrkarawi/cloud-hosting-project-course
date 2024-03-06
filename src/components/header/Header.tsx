@@ -4,13 +4,12 @@ import Navbar from './Navbar';
 
 const Header = () => {
   return (
-    <header className={styles.header}>
+    <div className='flex justify-center'>
+    <header className="w-5/6  flex justify-between  h-20 rounded-lg px-8 py-4 mt-1">
         <Navbar />
-        <div className={styles.right}>
-         <Link className={styles.btn} href="/login">Login</Link>
-         <Link className={styles.btn} href="/register">Register</Link>
-        </div>
+       
     </header>
+    </div>
   )
 }
 

@@ -1,31 +1,31 @@
-.header {
-    height: 100px;
+/* /* .header {
+    height: 50px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 0 40px;
-    border-bottom: 4px solid rgb(144, 144, 144);
-    background-color: rgb(227, 225, 225);
+    background-color: rgb(198, 240, 12);
     position: relative;
-}
+} */
 
 .navbar {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content:center;
 }
 
 .logo {
     display: flex;
     align-items: center;
-    font-size: 24px;
-    font-weight: bold;
-    color: rgb(176, 15, 176);
+    font-size: 34px;
+    font-weight: bolder;
+    color: rgb(191, 201, 53);
 }
 
 .menu {
     font-size: 40px;
-    font-weight: bold;
+    font-weight:normal;
+    
     color: #202121;
     cursor: pointer;
     display: none;
@@ -37,17 +37,17 @@
 
 .navLink {
     font-size: 20px;
-    font-weight: 600;
+    font-weight: 200;
     margin: 0 12px;
 }
 
-.right {
+/* .right {
     display: flex;
     align-items: center;
     gap: 10px;
-}
+} */
 
-.btn {
+/* .btn {
     cursor: pointer;
     background-color: blue;
     color: white;
@@ -57,7 +57,7 @@
     font-weight: 600;
     display: flex;
     align-items: center;
-}
+} */
 
 .btn:hover {
     background-color: darkblue;
